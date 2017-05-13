@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Action.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionClearEvents.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionCreateAction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionDestroyAction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionEvent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionList.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionListIf.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionUnsubscribe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Attributed.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Datum.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Entity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventArgs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventPublisher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventQueue.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameClock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\IXmlParseHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\PendingDelete.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Reaction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ReactionAttributed.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Scope.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Sector.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SharedDataTable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\World.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperData.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperSubfile.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseMaster.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Action.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionClearEvents.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionCreateAction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionDestroyAction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionEvent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionListIf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionUnsubscribe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Attributed.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Datum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Entity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Event.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventArgs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventPublisher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventQueue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Factory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameClock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\HashMap.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\IEventSubscriber.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\IXmlParseHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\PendingDelete.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Reaction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ReactionAttributed.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\RTTI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Scope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Sector.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SharedDataTable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Vector.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\World.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\WorldState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperData.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperSubfile.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseMaster.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperTable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Event.inl" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Factory.inl" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\HashMap.inl" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SList.inl" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Vector.inl" />
+  </ItemGroup>
+</Project>

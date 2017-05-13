@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Foos">
+      <UniqueIdentifier>{60fbcf49-6680-4f93-9552-fa17092c9545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{066a81a4-9774-42d8-b0c1-6d7fab911238}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\AttributedFoo.cpp">
+      <Filter>Source Files\Foos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\EntityFoo.cpp">
+      <Filter>Source Files\Foos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\Foo.cpp">
+      <Filter>Source Files\Foos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\XmlParseFoo.cpp">
+      <Filter>Source Files\Foos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\AttributedTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\DatumTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\EntityTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\FactoryTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\HashMapIteratorTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\HashMapTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\ScopeTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\SListIteratorTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\SListTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\VectorIteratorTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\VectorTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\XmlParseTableTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\XmlParseTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\ActionTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\EventTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\EventSubscriberFoo.cpp">
+      <Filter>Source Files\Foos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\ReactionTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Library.Desktop.Test\AsyncTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\Library.Desktop.Test\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Library.Desktop.Test\Foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Library.Desktop.Test\AttributedFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Library.Desktop.Test\XmlParseFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Library.Desktop.Test\EntityFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Library.Desktop.Test\EventSubscriberFoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

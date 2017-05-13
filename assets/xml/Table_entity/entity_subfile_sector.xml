@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Sector name="Test Sector">
+	<File path="entity_subfile_entity_1.xml" />
+	<File path="entity_subfile_entity_2.xml" />
+</Sector>

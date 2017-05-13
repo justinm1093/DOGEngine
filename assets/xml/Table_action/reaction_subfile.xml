@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Reaction name="SubfileReaction" subtype="Other">
+	<String name="subtype" value="Subfile" />
+	<String name="subtype" value="Test" />
+</Entity>

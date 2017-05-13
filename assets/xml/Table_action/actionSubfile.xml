@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<If name="If">
+	<Condition value="1" />
+	<Then class="ActionList" name="Then" />
+	<Else class="ActionList" name="Else" />
+</If>

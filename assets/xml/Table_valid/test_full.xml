@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Scope name="root">
+
+	<Scope name="Person">
+		<Scope name="name">
+			<String name="first" value="Justin" />
+			<String name="middle" value="William" />
+			<String name="last" value="Moser" />
+		</Scope>
+		
+		<Int name="age" value="23" />
+		<Float name="height" value="5.75" />
+		<Float name="weight" value="127.0" />
+		
+		<Vector name="direction" value="vec4(0, 1, 2, 3)" />
+		<Matrix name="matrix" value="mat4x4((0, 1, 2, 3), (4, 5, 6, 7), (8, 9, 10, 11), (12, 13, 14, 15))" />
+	</Scope>
+	
+	<Scope name="Person">
+		<Scope name="name">
+			<String name="first" value="Brandon" />
+			<String name="middle" value="Gerard" />
+			<String name="last" value="Moser" />
+		</Scope>
+		
+		<Int name="age" value="19" />
+		
+		<Vector name="direction" value="vec4(3, 2, 1, 0)" />
+		<Matrix name="matrix" value="mat4x4((15, 14, 13, 12), (11, 10, 9, 8), (7, 6, 5, 4), (3, 2, 1, 0))" />
+	</Scope>
+	
+	<Scope name="Game">
+		<String name="name" value="The Draft" />
+		<String name="genre" value="RTS" />
+		<String name="genre" value="Swordfighting" />
+	</Scope>
+	
+	<String name="test" value="This works!" />
+</Scope>

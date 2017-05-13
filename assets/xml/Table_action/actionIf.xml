@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<If name="If">
+	<Condition value="1" />
+	
+	<Then class="ActionList" name="List">
+	</Then>
+	
+	<Else class="ActionListIf" name="NestedIf">
+		<Condition value="2" />
+		
+		<Then class="ActionCreateAction" name="Create">
+		</Then>
+		
+		<Else class="ActionDestroyAction" name="Destroy">
+		</Else>
+		
+	</Else>
+	
+</If>

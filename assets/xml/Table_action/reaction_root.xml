@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<World name="Root">
+	
+	<Sector name="Child">
+		
+		<Entity class="Entity" name="Entity">
+		
+			<Action name="List" class="ActionList">
+			
+				<Action name="List Action" class="ActionCreateAction" />
+				
+				<Reaction name="List Reaction" subtype="World">
+					<String name="subtype" value="Other" />
+				</Reaction>
+				
+				<File path="reaction_subfile.xml" />
+				
+			</Action>
+		
+			<Action name="Entity Action" class="ActionCreateAction" />
+			
+			<Reaction name="Entity Reaction" subtype="World">
+				<String name="subtype" value="Other" />
+			</Reaction>
+			
+			<File path="reaction_subfile.xml" />
+		
+		</Entity>
+		
+		<Action name="Sector Action" class="ActionCreateAction" />
+		
+		<Reaction name="Sector Reaction" subtype="World">
+			<String name="subtype" value="Other" />
+		</Reaction>
+		
+		<File path="reaction_subfile.xml" />
+	
+	</Sector>
+	
+	<Action name="World Action" class="ActionCreateAction" />
+	
+	<Reaction name="World Reaction" subtype="World">
+		<String name="subtype" value="Other" />
+	</Reaction>
+	
+	<File path="reaction_subfile.xml" />
+	
+</World>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Scope name="root">
+	<Float name="health" value="100.0" />
+	<Float name="weight" value="127.0" />
+	<Float name="height" value="69.0" />
+	<Float name="age" value="23.0" />
+	<Float name="numbers" value="0.0" />
+	<Float name="numbers" value="1.0" />
+	<Float name="numbers" value="2.0" />
+</Scope>

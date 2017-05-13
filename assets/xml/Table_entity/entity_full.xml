@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<World name="Test World">\
+	<Sector name="Test Sector 1">
+	
+		<Entity class="Entity" name="Test Entity 1">
+			<Int name="int" value="100" />
+		</Entity>
+		
+		<Entity class="EntityFoo" name="Foo">
+			<Int name="int" value="200" />
+			<Int name="entity_foo_int" value="10" index="0" />
+		</Entity>
+		
+		<Int name="sectorInt" value="0" />
+		
+	</Sector>
+	<Sector name="Test Sector 2">
+	
+		<Entity class="Entity" name="Test Entity 1">
+			<Int name="int" value="300" />
+		</Entity>
+		
+		<Entity class="Entity" name="Test Entity 2">
+			<Int name="int" value="400" />
+		</Entity>
+		
+	</Sector>
+	
+	<Int name="worldInt" value="1" />
+</World>

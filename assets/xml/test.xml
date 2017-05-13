@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Body>
+	<Person>
+		<String firstname="Justin" lastname="Moser"></String>
+		<Int age="23"></Int>
+	</Person>
+	<Person>
+		<String firstname="Brandon" lastname="Moser"></String>
+		<Int age="19"></Int>
+	</Person>
+	<String key="value"></String>
+</Body>

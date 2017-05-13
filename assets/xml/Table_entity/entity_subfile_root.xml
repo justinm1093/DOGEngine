@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<World name="Test World">
+	<File path="entity_subfile_sector.xml" />
+</World>

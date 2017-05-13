@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Action class="ActionList" name="Test">
+	<Action class="ActionList" name="ChildList" />
+	<Action class="ActionCreateAction" name="ChildCreate" />
+	<Action class="ActionListIf" name="ChildIf" />
+	<Action class="ActionDestroyAction" name="ChildDestroy" />
+</Action>

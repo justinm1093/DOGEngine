@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Entity class="Entity" name="Entity">\
+	<Action class="ActionList" name="ActionList">
+		<Action class="ActionCreateAction" name="CreateAction" />
+	</Action>
+</Entity>

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Datum.cpp">
+      <Filter>Scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Scope.cpp">
+      <Filter>Scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Attributed.cpp">
+      <Filter>Scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\IXmlParseHelper.cpp">
+      <Filter>Util\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseMaster.cpp">
+      <Filter>Util\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SharedDataTable.cpp">
+      <Filter>Util\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperTable.cpp">
+      <Filter>Util\XML\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperData.cpp">
+      <Filter>Util\XML\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Entity.cpp">
+      <Filter>Scopes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Sector.cpp">
+      <Filter>Scopes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\World.cpp">
+      <Filter>Scopes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Action.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionList.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionListIf.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionCreateAction.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionDestroyAction.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperSubfile.cpp">
+      <Filter>Util\XML\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\PendingDelete.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventPublisher.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventQueue.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameClock.cpp">
+      <Filter>Util\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameTime.cpp">
+      <Filter>Util\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ReactionAttributed.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionEvent.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Reaction.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventArgs.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionUnsubscribe.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionClearEvents.cpp">
+      <Filter>Scopes\Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\HashMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Datum.h">
+      <Filter>Scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Scope.h">
+      <Filter>Scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Attributed.h">
+      <Filter>Scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\IXmlParseHelper.h">
+      <Filter>Util\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseMaster.h">
+      <Filter>Util\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SharedDataTable.h">
+      <Filter>Util\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperTable.h">
+      <Filter>Util\XML\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Factory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\RTTI.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\WorldState.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperData.h">
+      <Filter>Util\XML\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Entity.h">
+      <Filter>Scopes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Sector.h">
+      <Filter>Scopes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\World.h">
+      <Filter>Scopes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Action.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionList.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionListIf.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionCreateAction.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionDestroyAction.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\XmlParseHelperSubfile.h">
+      <Filter>Util\XML\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\PendingDelete.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventPublisher.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventQueue.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\IEventSubscriber.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameClock.h">
+      <Filter>Util\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\GameTime.h">
+      <Filter>Util\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Reaction.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ReactionAttributed.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionEvent.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\EventArgs.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionUnsubscribe.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\ActionClearEvents.h">
+      <Filter>Scopes\Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{7dc5bbf1-89a3-4f72-8d5c-7ad1e642ba5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scopes">
+      <UniqueIdentifier>{792eb351-a93a-4b29-8bac-4771c34e63cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{6293d747-77a2-485d-9e88-6ce4146c82fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scopes\Entity">
+      <UniqueIdentifier>{03976f34-76b6-49fe-85cf-4e90be8f9a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\XML">
+      <UniqueIdentifier>{45129188-978c-4e61-b993-1c6f91100655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\XML\Helpers">
+      <UniqueIdentifier>{be4db615-b11f-4d56-b990-0209a651afe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Time">
+      <UniqueIdentifier>{0fcc0bf0-04c6-4551-9316-efe081c8e611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scopes\Actions">
+      <UniqueIdentifier>{69fbf765-aa35-414a-88ad-2062fd677e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{f5516ab3-d078-45b3-80c9-c22522118a8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\SList.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Vector.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\HashMap.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Factory.inl">
+      <Filter>Util</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\source\Library.Shared\Event.inl">
+      <Filter>Events</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Scope name="root">
+	<String name="name_first" value="Justin" />
+	<String name="name_last" value="Moser" />
+	<String name="status" value="Tired" />
+	<String name="hobbies" value="Drawing" />
+	<String name="hobbies" value="Rock Climbing" />
+</Scope>
